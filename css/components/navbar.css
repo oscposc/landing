@@ -1,0 +1,39 @@
+.header-section {
+  width: 100%;
+  margin: auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+  margin-top: 20px;
+}
+
+#navigation {
+  list-style-type: none;
+  color: black;
+}
+
+#my-name {
+  color: white;
+  margin: 0px;
+  font-size: 55px;
+  text-shadow: 2px 2px 20px black;
+}
+
+#navigation li {
+  display: inline;
+  font-size: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
+#navigation li:hover{
+  scale: 1.05;
+  box-shadow: 2px 2px 5px white;
+}
